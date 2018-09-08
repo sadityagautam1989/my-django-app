@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        {% load static %}
+        <script src="{% static '/js/script.js' %}" type="text/javascript"></script>
+        <link href="{% static 'css/style.css'%}" rel="stylesheet">
+    </head>
+    <body>
+        <img src="{% static '/img1.jpg' %}" alt="My Image" height="300px" width="300px" />
+        <h1>Name:{{name1}}</h1>
+        <img src="{%static '/Shyam.jpg'%}" alt="Shyam" height="300px" width="300px" />
+        <h1>Name:{{name2}}</h1>
+    </body>
+</html>
